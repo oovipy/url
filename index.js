@@ -12,7 +12,7 @@ const shorten_timeout = typeof(SHORTEN_TIMEOUT)!="undefined" ? SHORTEN_TIMEOUT.s
     : (0)
 // 默认短链key的长度，遇到重复时会自动延长，
 const default_len = typeof(DEFAULT_LEN)!="undefined" ? parseInt(DEFAULT_LEN)
-    : 3
+    : 1
 // 为true开启演示，否则无密码且非白名单请求不受理，是则允许访客试用，超时后失效，
 const demo_mode = typeof(DEMO_MODE)!="undefined" ? DEMO_MODE === 'true'
     : true
